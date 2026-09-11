@@ -1,0 +1,20 @@
+# Datasets (CIFAR-100 is downloaded automatically)
+data/
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc

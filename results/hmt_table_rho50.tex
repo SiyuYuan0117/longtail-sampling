@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Head/Medium/Tail accuracy (\%) on CIFAR-100-LT with $\rho = 50$.}
+\label{tab:hmt_rho50}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Strategy} & \textbf{Overall} & \textbf{Head} & \textbf{Medium} & \textbf{Tail} \\
+\midrule
+Uniform & $44.1$ & $65.3$ & $36.7$ & $13.9$ \\
+Class-Balanced & $39.9$ & $57.7$ & $33.9$ & $14.1$ \\
+Square-Root & $43.0$ & $62.8$ & $35.6$ & $15.8$ \\
+Progressive & $44.1$ & $63.4$ & $37.7$ & $16.2$ \\
+\bottomrule
+\end{tabular}
+\end{table}

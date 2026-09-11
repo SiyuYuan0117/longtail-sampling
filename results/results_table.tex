@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Overall test accuracy (\%) on CIFAR-100-LT across different sampling strategies and imbalance ratios. Results are reported as mean $\pm$ std over 3 random seeds.}
+\label{tab:overall_results}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Strategy} & $\boldsymbol{\rho = 10}$ & $\boldsymbol{\rho = 50}$ & $\boldsymbol{\rho = 100}$ \\
+\midrule
+Uniform & $56.6 \pm 0.1$ & $44.1 \pm 0.3$ & $39.7 \pm 0.4$ \\
+Class-Balanced & $56.0 \pm 0.1$ & $39.9 \pm 0.2$ & $34.0 \pm 0.9$ \\
+Square-Root & $56.7 \pm 0.1$ & $43.0 \pm 0.2$ & $38.1 \pm 0.2$ \\
+Progressive & $57.6 \pm 0.2$ & $44.1 \pm 0.5$ & $40.0 \pm 0.6$ \\
+\bottomrule
+\end{tabular}
+\end{table}
