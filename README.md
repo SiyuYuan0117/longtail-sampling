@@ -76,7 +76,7 @@ identical hardware.
             An Empirical Study on {CIFAR-100-LT}},
   author = {Yuan, Siyu},
   year   = {2026},
-  eprint = {arXiv:XXXX.XXXXX},
+  eprint = {arXiv:2609.16365},
   primaryClass = {cs.LG}
 }
 ```
