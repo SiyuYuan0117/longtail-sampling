@@ -148,7 +148,7 @@ One JSON per run, named `results_<strategy>_rho<R>_seed<S>.json`:
 > `final_medium_acc` and `final_tail_acc` are recorded at the epoch maximising
 > `test_acc`, **not** at epoch 200. For genuine final-epoch values use the last
 > element of the corresponding per-epoch list, e.g. `test_acc[-1]`.
-> Appendix D of the paper reports both protocols and shows the difference is
+> Appendix C of the paper reports both protocols and shows the difference is
 > 0.06–0.30 percentage points, with the tail-class finding holding under either.
 
 Minimal example:
